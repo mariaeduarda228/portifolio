@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,
+    100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,
+    400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+    
+    <script src="menu.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portifólio</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img class="logo" src="img/logo.svg" alt="Logo">
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio"></a>Início</li>
+                    <li><a href="#especialidades"></a>Especialidades</li>
+                    <li><a href="#sobre"></a>Sobre</li>
+                    <li><a href="#projetos"></a>Projetos</li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="contato">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1 id="inicio">FRONT-END DEVELOPER</h1>
+                        <p>Olá, seja bem-vindo(a) ao meu Portifólio!</p>
+                    
+                        <div class="btn-contato">
+                            <a href="mariaeduarda08222005@gmail.com">
+                                <button>Entre em Contato</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="img-topo-site">
+                        <img src="img/img-topo.png" alt="" width="300px" height="300px">
+                    </div>
+                </div>
+            </div>
+        </section><!--topo-do-site-->
+
+        <section class="especialidades">
+            <div class="interface">
+                <h2 id="especialidades" class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Website</h3>
+                        <p>Websites com o estilo de sua preferência e gosto.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-wordpress"></i>
+                        <h3>Landing Page</h3>
+                        <p>Desde de o design até a criação da Landing Page, realizo o desenvolvimento e elaboração do projeto.</p>
+                    </div>
+                </div>
+            </div>
+        </section><!--especialidades-->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="" alt="">
+                    </div><!--img-sobre-->
+        
+                    <div id="sobre" class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU MARIA EDUARDA BASTOS.</span></h2>
+                        <p>Estudante de Engenharia de Software na Anhanguera e também faço cursos na DIO, apaixonada por
+                        programação. Comprometida em desenvolver habilidades sólidas em Desenvolvimento Full Stack e Machine Learning, incluindo
+                        Python, .NET, C#, TypeScript e SQL.</p>
+                        <p>Buscando oportunidades de estágio ou projetos acadêmicos que me permitam aplicar meu conhecimento e crescer
+                        profissionalmente.</p>
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/e_mary22"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/mariaeduarda228"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/maria-eduarda-bastos-dev/"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+        
+        <section class="portfolio">
+            <div class="interface">
+                <h2 id="projetos" class="titulo">MEUS <span>PROJETOS.</span></h2>
+                <div class="flex">
+                    <a href="https://mariaeduarda228.github.io/sucesso-teen/" class="img-port-container">
+                        <div class="img-port" style="background-image: url(img/sucesso-teen.png);">
+                            <div class="overlay">Projeto 1</div>
+                        </div>
+                    </a>
+                    <a href="https://mariaeduarda228.github.io/nlw-unite/" class="img-port-container">
+                        <div class="img-port" style="background-image: url(img/nlw.png);">
+                            <div class="overlay">Projeto 2</div>
+                        </div>
+                    </a>
+                    <a href="https://mariaeduarda228.github.io/pet-life/" class="img-port-container">
+                        <div class="img-port" style="background-image: url(img/pet-life.png);">
+                            <div class="overlay">Projeto 3</div>
+                        </div>
+                    </a>
+                </div>
+<!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+        
+                <form id="contato">
+                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+        <footer>
+            <div class="interface">
+                <div class="line-footer">
+                    <div class="flex">
+                        <div class="logo-footer">
+                            <img src="img/logo.svg" alt="Logo">
+                        </div><!--logo-footer-->
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/e_mary22"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/mariaeduarda228"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/maria-eduarda-bastos-dev/"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-social-->
+                    </div>
+                </div><!--line-footer-->
+        
+                <div class="line-footer borda">
+                    <p><i class="bi bi-envelope-fill"></i> <a href="mailto:contato@mariaeduarda08222005@gmail.com">mariaeduarda08222005@gmail.com</a></p>
+                </div><!--line-footer-->
+            </div><!--interface-->
+        </footer>
+
+    </main>
+
+</body>
+</html>
